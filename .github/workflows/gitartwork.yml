@@ -1,0 +1,25 @@
+name: gitartwork from a contribution graph
+
+on:
+  push:                    # the Action runs on every push
+    branches: [main]       # replace with "master" if that’s your default
+
+jobs:
+  build:
+    name: Make gitartwork SVG
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo contents
+        uses: actions/checkout@v3
+
+      - name: Generate gitartwork.svg
+        uses: jasineri/gitartwork@v1
+        with:
+          # whose contribution graph to trace
+          user_name: nikhil-kumar      # ← PUT YOUR USERNAME HERE
+          # text to write over the graph
+          text: NIKHIL
+
+      - name: Commit the new/updated SVG back to the repo
+        uses: jasineri/simple-push-action@v1
