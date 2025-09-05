@@ -26,15 +26,9 @@
 
 ---
 
-<h2 align="center">📈 GitHub Stats</h2>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nikhil-kumar&show_icons=true&theme=dracula" />
-  <br />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=nikhil-kumar&theme=tokyonight" />
-  <br />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nikhil-kumar&theme=tokyonight" />
-</p>
+![kumarnikhilx's Stats](https://github-readme-stats.vercel.app/api?username=kumarnikhilx&theme=prussian&show_icons=true&hide_border=true&count_private=true)
+![kumarnikhilx's Streak](https://github-readme-streak-stats.herokuapp.com/?user=kumarnikhilx&theme=prussian&hide_border=true)
+![kumarnikhilx's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kumarnikhilx&theme=prussian&show_icons=true&hide_border=true&layout=compact)
 
 ---
 
